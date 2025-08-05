@@ -10,7 +10,7 @@ const musicData = {
             duration: "3:42",
             genre: "Indie Pop",
             year: 2024,
-            artwork: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop",
+            artwork: "2.png",
             audioUrl: "hbd.mp3", // Placeholder - you'll need actual music files
             lyrics: `Sunny days are here again
 Feeling good, no need to pretend
@@ -79,7 +79,7 @@ Time just seems to pass me by`,
             duration: "3:58",
             genre: "Electronic",
             year: 2024,
-            artwork: "https://images.unsplash.com/photo-1571115764595-644a64828c75?w=300&h=300&fit=crop",
+            artwork: "3.jpeg",
             audioUrl: "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
             lyrics: `In the digital world we live
 Electric dreams we have to give
@@ -151,7 +151,7 @@ Music chases away the gloom`,
             duration: "5:16",
             genre: "Pop music",
             year: 2021,
-            artwork: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop",
+            artwork: "2.png",
             audioUrl: "hbd.mp3", // Placeholder - you'll need actual music files,
             lyrics: `[Chorus]
 When I'm away from you
@@ -322,7 +322,7 @@ No lyrics - Classical instrumental piece featuring full orchestra arrangement`,
             id: 3,
             name: "Electronic Beats",
             description: "The best in electronic music",
-            image: "https://images.unsplash.com/photo-1571115764595-644a64828c75?w=300&h=300&fit=crop",
+            image: "3.jpeg",
             tracks: [2, 4],
             creator: "SoundWave",
             isPublic: true,
