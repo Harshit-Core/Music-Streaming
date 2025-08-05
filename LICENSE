@@ -1,0 +1,146 @@
+MIT License
+
+Copyright (c) 2025 Harshit - Music Streaming Platform
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-Party Services and Libraries
+
+This project integrates with the following third-party services and libraries:
+
+### Spotify Web API
+- **Service**: Spotify Web API for music streaming and user library access
+- **Terms**: https://developer.spotify.com/terms/
+- **Documentation**: https://developer.spotify.com/documentation/web-api/
+- **Usage**: Search music, access user playlists, control playback
+- **Authentication**: OAuth2 with user consent
+
+### YouTube Data API v3
+- **Service**: YouTube Data API for music video search and metadata
+- **Terms**: https://developers.google.com/youtube/terms/api-services-terms-of-service
+- **Documentation**: https://developers.google.com/youtube/v3
+- **Usage**: Search music videos, retrieve video metadata
+- **Rate Limits**: Subject to YouTube API quotas
+
+### Font Awesome Icons
+- **Library**: Font Awesome Free icons
+- **License**: Font Awesome Free License
+- **Website**: https://fontawesome.com/license/free
+- **Usage**: UI icons throughout the application
+
+### Unsplash Images
+- **Service**: Unsplash for sample artwork and images
+- **License**: Unsplash License
+- **Website**: https://unsplash.com/license
+- **Usage**: Sample album artwork and background images
+
+### Web APIs and Standards
+- **HTML5 Audio API**: Native browser audio playback
+- **Web Audio API**: Audio analysis and visualization
+- **Fetch API**: HTTP requests for API integration
+- **Local Storage API**: Client-side data persistence
+- **Canvas API**: Audio visualization rendering
+
+## Audio Content and Copyright Notice
+
+### Important Legal Information
+
+This software is designed as a platform for music playback and discovery. Users are responsible for ensuring they have proper rights and licenses for any audio content used with this software.
+
+### Supported Content Types
+- **Personal Music Library**: User-owned audio files
+- **API-Sourced Content**: Music accessed through official APIs (Spotify, YouTube)
+- **Sample Content**: Demo tracks for development and testing purposes only
+
+### User Responsibilities
+- Ensure compliance with local copyright laws
+- Respect terms of service for integrated APIs
+- Obtain proper licenses for commercial use
+- Use personal music files within fair use guidelines
+
+### Platform Disclaimers
+- This software does not host, store, or distribute copyrighted music
+- All API integrations require user authentication and consent
+- Users must comply with each service provider's terms of use
+- The platform facilitates access to legally available content only
+
+## API Usage and Compliance
+
+### Rate Limiting and Fair Use
+- All API calls are subject to provider rate limits
+- Implement caching to minimize unnecessary requests
+- Respect API quotas and usage guidelines
+- Monitor and handle API errors gracefully
+
+### Data Privacy and Security
+- No personal data is collected or transmitted by this software
+- API credentials are stored locally only
+- User preferences and playlists remain on user's device
+- No tracking, analytics, or data mining features
+
+### Authentication and Authorization
+- OAuth2 flows require explicit user consent
+- Tokens are managed securely within the browser
+- No server-side storage of user credentials
+- Users can revoke access at any time
+
+## Development and Contribution Guidelines
+
+### Code Quality Standards
+- Follow modern JavaScript ES6+ practices
+- Implement responsive CSS with mobile-first approach
+- Use semantic HTML and proper accessibility features
+- Maintain clean, documented, and modular code
+
+### Security Best Practices
+- Never commit API keys or secrets to version control
+- Use environment variables for configuration
+- Implement proper error handling for all API calls
+- Validate and sanitize all user inputs
+
+### Testing and Quality Assurance
+- Test across multiple browsers and devices
+- Verify accessibility compliance
+- Performance test audio loading and playback
+- Validate API integration error handling
+
+## Support and Maintenance
+
+### Community Guidelines
+- Issues and feature requests welcome via GitHub
+- Contributions subject to code review
+- Maintain respectful and constructive communication
+- Help others learn and improve their skills
+
+### Maintenance Commitment
+- Regular updates for security and compatibility
+- Bug fixes for critical issues
+- Documentation improvements
+- API integration updates as needed
+
+---
+
+**For questions about licensing, API usage, or legal compliance, please consult with appropriate legal counsel.**
+
+**This software is provided for educational and personal use. Commercial use requires additional consideration of licensing terms.**
+
+Last Updated: December 2024
+Version: 2.0

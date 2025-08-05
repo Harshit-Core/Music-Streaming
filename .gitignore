@@ -1,0 +1,284 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# API Keys and Credentials
+config.js
+secrets.js
+api-keys.json
+spotify-credentials.json
+youtube-credentials.json
+.env.spotify
+.env.youtube
+
+# Audio Files (Keep your music library private)
+music/
+audio/
+songs/
+tracks/
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.wma
+*.opus
+
+# User Generated Content
+user-uploads/
+user-playlists/
+user-data/
+custom-playlists/
+
+# Build and Distribution
+build/
+dist/
+public/
+
+# IDE and Editor Files
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+*.code-workspace
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Windows
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Logs
+logs
+*.log
+scroll_log.txt
+error.log
+access.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Audio Processing Cache
+audio-cache/
+visualization-cache/
+waveform-cache/
+
+# User Preferences and Local Storage Backups
+preferences-backup/
+localstorage-backup/
+user-settings-backup/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# Archive Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Python Cache (if using Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing and Coverage
+/coverage
+/tests/coverage
+test-results/
+playwright-report/
+test-results/
+
+# Package Manager Lock Files (choose one)
+# Uncomment the one you don't use
+# package-lock.json  # If using Yarn
+# yarn.lock         # If using npm
+
+# PWA and Service Worker Cache
+sw-cache/
+workbox-cache/
+
+# Audio Visualization Data
+frequency-data/
+spectrum-cache/
+
+# Performance Monitoring
+performance-logs/
+*.perf
+
+# Local Development
+/local
+/dev
+dev-server/
+
+# Documentation Build
+/docs/build
+
+# Storybook build outputs
+storybook-static/
+
+# API Response Cache
+api-cache/
+spotify-cache/
+youtube-cache/
+
+# Error Screenshots and Debug Data
+screenshots/
+debug-data/
+error-dumps/
+
+# Webpack Build Assets
+webpack-stats.json
+webpack-bundle-analyzer-report.html
+
+# ESLint and Prettier
+.eslintignore
+.prettierignore
+
+# Husky
+.husky/_/
+
+# Miscellaneous
+*.tgz
+*.tar.gz
+*.rar
+*.zip
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.7z
